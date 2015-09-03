@@ -1,0 +1,40 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		calculator obja= new calculator();
+		obja.Result(obja.add(5, 4));
+	}
+
+}
+public class result {
+	public void Result(int q)
+	{
+	System.out.println(q);
+}
+}
+public class calculator extends result {
+	
+protected int add(int a, int b)
+{
+	return a+b;
+}
+
+protected int sub(int a, int b)
+{
+	return a-b;
+}
+
+protected int mul(int a, int b)
+{
+	return a*b;
+}
+
+protected int div(int a, int b)
+{
+	return a/b;
+}
+
+}
